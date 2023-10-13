@@ -179,6 +179,7 @@ font-family: "Roboto-Regular",  sans-serif;
     color: #b7b7b7;
     }
 
+    /* Team */
     .team {
         height: 745px;
     }
@@ -249,4 +250,72 @@ font-family: "Roboto-Regular",  sans-serif;
 
     .team__icon-box a:hover {
         color: #949494;
+    }
+
+    /* Provide */
+    .provide {
+        padding-bottom: 155px;
+        background-color: #181818;
+    }
+
+    .block__head {
+    }
+
+    .inverse .block__title {
+        padding-top: 176px;
+        color: #ffffff;
+    }
+
+    .inverse .block__text {
+        color: #777777;
+    }
+   
+    .provide-inner {
+        padding-top: 138px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .provide__item {
+        text-align: center;
+        max-width: 335px;
+    }
+
+    .provide__item i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 43px;
+        color: #ffffff;
+        font-size: 63px;
+        width: 172px;
+        height: 172px;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+    }
+
+    .icon-chart-line {
+    }
+
+    .provide__item-title {
+        margin: 0;
+        margin-bottom: 31px;
+        font-family: "HelveticaNeueLTProLt",  sans-serif; 
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+    }
+
+    .provide__item-text {
+        margin: 0;
+        font-family: "HelveticaNeueLTProLt",  sans-serif; 
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.02em;
+        color: #383838;
+    }
+    .icon-heart {
+    }
+    .icon-upload-cloud-outline {
     }
