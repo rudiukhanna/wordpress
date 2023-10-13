@@ -258,9 +258,6 @@ font-family: "Roboto-Regular",  sans-serif;
         background-color: #181818;
     }
 
-    .block__head {
-    }
-
     .inverse .block__title {
         padding-top: 176px;
         color: #ffffff;
@@ -270,7 +267,7 @@ font-family: "Roboto-Regular",  sans-serif;
         color: #777777;
     }
    
-    .provide-inner {
+    .provide__inner {
         padding-top: 138px;
         display: flex;
         justify-content: space-between;
@@ -294,9 +291,6 @@ font-family: "Roboto-Regular",  sans-serif;
         border-radius: 50%;
     }
 
-    .icon-chart-line {
-    }
-
     .provide__item-title {
         margin: 0;
         margin-bottom: 31px;
@@ -317,21 +311,10 @@ font-family: "Roboto-Regular",  sans-serif;
     }
     
     /* Contact */
-    .contact {
-    }
-   
     .contact .block__head .block__title {
         padding-top: 95px;
     }
 
-    .block__head {
-    }
-    .block__title {
-    }
-    .block__text {
-    }
-    .contact__inner {
-    }
     .contact__icon-box {
         margin: 0 auto;
         display: flex;
@@ -349,9 +332,7 @@ font-family: "Roboto-Regular",  sans-serif;
         text-align: center;
         width: 130px;
     }
-    .icon-phone {
-    }
-
+ 
     .contact__text {
         margin-bottom: 12px;
     }
@@ -370,11 +351,6 @@ font-family: "Roboto-Regular",  sans-serif;
     .contact__text a:hover {
         color: #4b4b4b;
         text-decoration: underline;
-    }
-
-    .icon-location {
-    }
-    .icon-mail-alt {
     }
     
     .contact__form input {
@@ -456,4 +432,54 @@ font-family: "Roboto-Regular",  sans-serif;
         font-weight: 400;
         letter-spacing: 0.02em;
         color: #3b3b3b;
+    }
+
+    /* media */
+    @media screen and  (max-width: 769px ) {
+       .container {
+            width: 768px;
+       }
+
+       .about {
+            height: auto;
+            padding-bottom: 200px;
+       }
+
+       .about__inner {
+            grid-gap: 30px;
+            grid-template-columns: max-content;
+       }
+
+       .team .block__title,
+       .provide .block__title {
+            padding-top: 100px;
+       }
+
+       .provide {
+            padding-bottom: 100px;
+       }
+
+       .provide__inner {
+            flex-wrap: wrap;
+            justify-content: center;
+       }
+
+       .provide__item {
+            max-width: 300px;
+            margin: 0 30px 40px;
+       }
+
+       .contact__form {
+            padding-top: 100px;
+       }
+
+       .footer {
+            padding-top: 30px;
+       }
+    }
+
+    @media screen and  (max-width: 376px ) {
+        .container {
+            width: 375px;
+       }
     }
